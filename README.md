@@ -21,4 +21,4 @@ This project is simply in HTML, CSS, and JavaScript. Taking about the features o
 To run this project, you donâ€™t need to have any kind of local server but yet a browser. We recommend you to use modern browsers like Google Chrome and Mozilla Firefox. To run this app, just, open the project in your browser by clicking the index.html file. 
 
 
-## **Use This Link to Check My Project** https://debasis006.github.io/Music-Player/
+## **Use This Link to Check My Project :** https://debasis006.github.io/Music-Player/
