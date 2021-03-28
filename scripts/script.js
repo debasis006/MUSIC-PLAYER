@@ -24,7 +24,7 @@ const songs = [
     title: 'Shape of You',
     artist: 'Ed Sheeran',
     coverPath: 'images/shape of you.jpg',
-    discPath: 'music/Shape of you.mp3',
+    discPath: 'music/Shape Of You.mp3',
     duration: '3:55',
   },
   {
@@ -36,14 +36,7 @@ const songs = [
   },
   {
     title: 'Despacito',
-    artist: 'Luis Fonsi',
-    coverPath: 'images/Despacito.jpg',
-    discPath: 'music/Despacito.mp3',
-    duration: '4:41',
-  },
-  {
-    title: 'Despacito',
-    artist: 'Luis Fonsi',
+    artist: 'Daddy Yankee, Luis Fonsi',
     coverPath: 'images/Despacito.jpg',
     discPath: 'music/Despacito.mp3',
     duration: '4:41',
@@ -103,6 +96,13 @@ const songs = [
     coverPath: 'images/Raat-Pohale.jpg',
     discPath: 'music/Raat Pohale.mp3',
     duration: '2:52',
+  },
+  {
+    title: 'পূর্ণিমা সন্ধ্যায়, তোমার রজনীগন্ধায়',
+    artist:'Lyricist : Rabindranath Tagore',
+    coverPath: 'images/purnima.jpg',
+    discPath: 'music/Purnima Sondhay Tomar Rojonigondhay.mp3',
+    duration: '0:43',
   },
 ];
 

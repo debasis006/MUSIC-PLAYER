@@ -15,8 +15,14 @@ body {
   font-family: 'Kanit', sans-serif;
   font-weight: 300;
   /*font-family: 'Poppins', 'Montserrat', sans-serif;*/
-  color: rgb(39, 35, 35);
+  color: rgb(12, 11, 11);
+  text-shadow: 0 0 10px #21e662,
+    0 0 20px #21e662,
+    0 0 40px #21e662,
+    0 0 80px #21e662,
+    0 0 100px #21e662;
   background: linear-gradient(-45deg, #EE7752, #E73c7E, #23A6D5, #23D5AB);
+  background-size: cover;
   /*background-color: #82c1d4;*/
   display: flex;
   justify-content: center;
@@ -31,12 +37,22 @@ body {
 }
 
 .heading {
-  color: #000;
+  /*color: #000;*/
   text-align: center;
-  text-shadow: 2px 1px #c8ce90;
+  /*text-shadow: 2px 1px #c8ce90;*/
+  color: rgb(250, 249, 249);
+  text-shadow: 0 0 10px #bfeb30,
+    0 0 20px #bfeb30,
+    0 0 40px #bfeb30,
+    0 0 80px #bfeb30,
+    0 0 100px #bfeb30;
   font-size: 4rem;
   font-weight: 600;
+  animation: animate 5s linear infinite;
 }
+
+
+
 
 .music-container {
   background-color: rgb(90, 179, 238);
