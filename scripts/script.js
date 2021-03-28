@@ -70,6 +70,13 @@ const songs = [
     duration: '2:56',
   },
   {
+    title: 'Tera Suit',
+    artist: 'Tony Kakkar',
+    coverPath: 'images/tera suit.jpg',
+    discPath: 'music/Tera Suit.mp3',
+    duration: '2:39',
+  },
+  {
     title: 'তাকে অল্প কাছে ডাকছি (প্রেম tame)',
     artist: 'Mahatim Shakib',
     coverPath: 'images/Takey Olpo Kachhe Dakchhi.jpg',

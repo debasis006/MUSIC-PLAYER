@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Zilla+Slab:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -7,20 +7,22 @@
 
 html {
   font-size: 10px;
-  font-family: 'Kanit', sans-serif;
+  /*font-family: 'Chicle', cursive;*/
+  font-family: 'Poppins', 'Montserrat', sans-serif;
 }
 
 body {
   /*font-family: "Zilla Slab", Arial, sans-serif;*/
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Chicle', cursive;
   font-weight: 300;
   /*font-family: 'Poppins', 'Montserrat', sans-serif;*/
-  color: rgb(12, 11, 11);
-  text-shadow: 0 0 10px #21e662,
-    0 0 20px #21e662,
-    0 0 40px #21e662,
-    0 0 80px #21e662,
-    0 0 100px #21e662;
+  color: rgb(12, 12, 12);
+  text-shadow: 0 0 10px #e1f3e7,
+    0 0 20px #e1f3e7,
+    0 0 40px #e1f3e7,
+    0 0 80px #e1f3e7,
+    0 0 100px #e1f3e7;
+    text-shadow: rgb(8, 8, 8);
   background: linear-gradient(-45deg, #EE7752, #E73c7E, #23A6D5, #23D5AB);
   background-size: cover;
   /*background-color: #82c1d4;*/
@@ -40,8 +42,8 @@ body {
   /*color: #000;*/
   text-align: center;
   /*text-shadow: 2px 1px #c8ce90;*/
-  color: rgb(250, 249, 249);
-  text-shadow: 0 0 10px #bfeb30,
+  color: rgb(253, 241, 241);
+  text-shadow: 0 0 10px ,
     0 0 20px #bfeb30,
     0 0 40px #bfeb30,
     0 0 80px #bfeb30,
@@ -55,20 +57,34 @@ body {
 
 
 .music-container {
-  background-color: rgb(90, 179, 238);
+  background-color: rgb(241, 231, 93);
   border-radius: 1rem;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
-  padding: 1rem 2rem;
+  border-style:outset;
+  border-block-end-style:ridge;
+  border-color: #f8f7f7;
+  box-shadow:  0 0 10px #d3f36b,
+    0 0 20px #d3f36b,
+    0 0 40px #d3f36b,
+    0 0 80px #d3f36b,
+    0 0 100px #d3f36b;
+  /*box-shadow: 0px 0px 8px rgba(7, 7, 7, 0.4);*/
+  padding: 2rem 2rem;
   margin-top: 7rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+  animation: change 40s linear infinite;
+  background: linear-gradient(235deg,#e2e989,#f7a960,#a2c9ee);
 }
 
 #cover-box {
   border-radius: 1rem;
-  box-shadow: 0px 0px 8px rgba(185, 94, 212, 0.4);
+  border-style:outset;
+  border-color: rgb(247, 243, 243);
+  box-shadow: 0px 0px 8px rgba(231, 100, 67, 0.4);
+
   position: relative;
   bottom: 4rem;
   width: 85%;
@@ -159,7 +175,7 @@ body {
 
 @media (hover: hover) {
   .btn:hover {
-    background-color: #96e09c;
+    background-color: #bbf1df;
     color: #545454;
   }
 
